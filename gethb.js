@@ -38,9 +38,9 @@
             key[5] = "";
             key[6] = "";
             key[7] = "";
-			key[8] = "";
-			key[9] = "";
-			key[10] = "";
+	    key[8] = "";
+	    key[9] = "";
+	    key[10] = "";
             document.cookie = cookie_name+"="+key[lucky_number]+"; domain= .ele.me; path=/";
             location.reload();
         }
