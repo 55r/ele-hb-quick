@@ -23,13 +23,13 @@
   	if (cookie!=null && cookie!=""){
         cookie = cookie;
 */
-  	    var   lucky_number = prompt("使用哪一个key 0-11");//自己改下。
-        if (cookie!=null && cookie!=""){
-          //get cookie name
-          var cookie_name=document.cookie.split(";")[cookie].split("=")[0]; // alert(cookie_name);
-          //cookie array
+  var   lucky_number = prompt("使用哪一个key 0-11");//自己改下。
+  if (cookie!=null && cookie!=""){
+  //get cookie name
+   var cookie_name=document.cookie.split(";")[cookie].split("=")[0]; // alert(cookie_name);
+   //cookie array
             var key=new Array();
-			//这里填写你获取到的KEY
+	    //这里填写你获取到的KEY
             key[0] = '';
             key[1] = "";
             key[2] = "";
