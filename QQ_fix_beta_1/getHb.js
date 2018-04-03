@@ -1,7 +1,7 @@
 
 /**
 *author：张琪灵
-*date:2018.1.12
+*date:2018.4.1
 */
 //get cookie 获取四个cookie的名字
   var a=new Array();
